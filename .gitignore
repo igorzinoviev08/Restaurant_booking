@@ -1,0 +1,105 @@
+# === Python ===
+# Байт-код Python
+__pycache__/
+*.py[cod]
+
+# Локальные файлы IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Виртуальные окружения
+venv/
+ENV/
+env/
+.venv/
+
+# Зависимости Poetry
+poetry.lock
+poetry.toml
+
+# Логи и базы данных
+logs/
+*.log
+*.sqlite3
+*.db
+
+# Дистрибутивы и сборки
+/dist/
+/build/
+/egg-info/
+
+# Тестовые артефакты
+.htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+
+# Docker
+.docker/
+docker-compose.override.yml
+.dockerignore
+
+# Кэш и временные файлы
+.cache/
+.temp/
+.tmp/
+
+# Системные файлы
+.bash_history
+.bashrc
+.bash_logout
+.profile
+.ssh/
+.thunderbird/
+.local/
+.config/
+.cache/
+.gnupg/
+.java/
+.pgadmin/
+.pki/
+.snap/
+.sudo_as_admin_successful
+.DS_Store
+
+# Файлы PyCharm и других IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Логи и отчеты
+*.log
+*.out
+*.err
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Linux
+*~
+
+# Node.js (если используется)
+node_modules/
+npm-debug.log
+
+# Другие ненужные файлы
+*.swp
+*.bak
+*.tmp
