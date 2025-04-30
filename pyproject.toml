@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "restaurant-booking"
+version = "0.1.0"
+description = "API сервис бронирования столиков в ресторане"
+authors = ["igor <igor.zinoviev08@yandex.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.2"
+sqlalchemy = "^2.0.40"
+psycopg2-binary = "^2.9.10"
+alembic = "^1.15.2"
+pydantic = "^2.11.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
