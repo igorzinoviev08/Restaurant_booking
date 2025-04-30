@@ -39,7 +39,7 @@ cd restaurant_booking
 
 Структура проекта:
 rrestaurant_booking/
-├── app/
+├**├── app/
 │   ├── __init__.py
 │   ├── main.py           # Основной файл приложения
 │   ├── routers/          # Маршруты API
@@ -66,7 +66,45 @@ rrestaurant_booking/
 │   └── test_reservations.py
 ├── Dockerfile            # Dockerfile для FastAPI
 ├── docker-compose.yml    # Docker Compose для запуска PostgreSQL и FastAPI
-└── requirements.txt      # Зависимости
+└── requirements.txt      # Зависимости**
+
+2.Установка зависимостей
+Создайте файл requirements.txt: 
+
+3.Установите зависимости:
+pip install -r requirements.txt
+
+4.Настройка базы данных  
+Файл app/database.py: 
+
+5.Модели SQLAlchemy  
+Файл app/models/base.py: 
+
+6.Pydantic модели  
+Файл app/schemas/tables.py: 
+Файл app/schemas/reservations.py:
+
+7.Бизнес-логика  
+Файл app/services/reservations.py: 
+
+8.Маршруты  
+Файл app/routers/tables.py: 
+Файл app/routers/reservations.py:
+
+9.Docker и Docker Compose  
+Файл Dockerfile: 
+Файл docker-compose.yml:
+
+10.Запуск приложения  
+bash
+docker-compose up --build
+
+10.Тестирование  
+Файл tests/test_reservations.py: 
+
+
+ 
+
 
 2.Установка зависимостей
 Создайте файл requirements.txt: 
